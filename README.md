@@ -223,5 +223,37 @@
 - [ ] Test for Web Storage SQL injection  
 - [ ] Check CORS implementation  
 - [ ] Check Offline Web Application  
+
   
+
+Create 2 accounts on the same website if it has login functionality You can use [Extension](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers) to use same browser for creating different account on the same website
+
+
+Login Page
+
+    [ ] Session Expiration
+    [ ] Improper Session Validation
+    [ ] OAuth Bypass (It includes features like login with Google, Microsoft, Instagram or any)
+    [ ] OAuth Token Stealing
+    [ ] Authentication Bypass
+    [ ] Privilege Escalation
+    [ ] SQLi
+
+Registration Page
+
+    [ ] XML File Upload using SVG (If website asks for Documents upload or Profile Upload then you can try this)
+    [ ] Bypassing Limitation on File Types to Upload (If they just allow jpg,png then try to upload .php or .py)
+    [ ] Bypassing Mobile or Email Verification
+    [ ] Brute Forcing OTP Sent
+    [ ] Try inserting XSS payload wherever possible (Like if you can enter XSS payload in First Name/Last Name/Address
+    etc text box make sure to enter because sometimes it may reflect somewhere else or maybe it's stored XSS).
+
+Forgot Password Page
+
+    [ ] Password Reset Poisoning (Kind of similar way we do Host Header Injection)
+    [ ] Reset Token/Link Expiring (Maybe they pay)
+    [ ] Reset Token Leaks (This can happen when some website interacts to third party services at that point of time maybe
+    password reset token is sent via referrer header part and maybe it can leak)
+    [ ] Check for Subdomain_Takeover
+    [ ] Check for Older Version of Service is used by your target and if they do try to find existing exploit for the target.
 
