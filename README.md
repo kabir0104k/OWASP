@@ -53,7 +53,7 @@ Checklist 2
 > Test for Default Credentials on admin page/console or any sign in panel.
 * Try submitting default username passwords like "admin":"admin", "admin":"password"
 > Bypassing the Authentication
-Forced Browsing: Directly visiting the section of the website which requires authentication. For example, if you have to login at https://spinthehack.in/login to visit https://spinthehack.in/information then if you directly type https://spinthehack.in/information in the address bar of your browser and if you get the access to the website. It is Forced Browsing
+* Forced Browsing: Directly visiting the section of the website which requires authentication. For example, if you have to login at https://spinthehack.in/login to visit https://spinthehack.in/information then if you directly type https://spinthehack.in/information in the address bar of your browser and if you get the access to the website. It is Forced Browsing
 * Parameter Modification: Try changing Response which comes from the server for example, if your server response https://spinthehack.in/auth=false then try changing the parameter auth=false to auth=true.
 * Session ID Brute Forcing: Maybe sometimes it may work.
 * SQL Injection: This method may depend on sql injection vuln.
