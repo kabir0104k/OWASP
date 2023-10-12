@@ -1,6 +1,3 @@
-# OWASP
-
-
 ### Bug Bounty Checklist
 
 > This checklist may help you to have a good methodology for bug bounty hunting
